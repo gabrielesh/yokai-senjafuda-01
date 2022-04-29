@@ -24,3 +24,15 @@ Yōkai simply means “monster,” but it’s best understood as referring speci
 ***The University of Oregon’s collection of senjafuda is one of the largest in the world.*** It includes many senjafuda depicting yōkai. This exhibit uses senjafuda to explore yōkai culture, and yōkai to explore senjafuda culture.
 
 ## Senjafuda collections at the University of Oregon
+
+These are the digital collections used to making the digital exhibit.
+1. The Star Collection
+2. The Shōbundō collection
+
+These are categories of ghosts and monsters that are found in the digital exhibit.
+- Kappas
+- Oni
+- Cats
+- Foxes
+- Tengu
+
