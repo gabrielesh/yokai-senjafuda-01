@@ -8,7 +8,10 @@ permalink: /collection_highlights.html
 # Collection Highlights
 
 Here's a really neat image:
+
 ![Image I'm sharing with you](/objects/coll001.jpeg)
+
+![Image I'm sharing with you no first slash](objects/coll001.jpeg)
 
 
 Let's try again:
