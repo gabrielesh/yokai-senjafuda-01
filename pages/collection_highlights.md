@@ -1,3 +1,10 @@
+---
+title: Collection Highlights
+layout: about
+permalink: /collection_highlights.html
+---
+
+
 # Collection Highlights
 
 Here's a really neat image:
