@@ -12,7 +12,7 @@ Here's a really neat image shared using the feature include:
 {% include feature/image.html objectid="coll001" %}
 
 
-Here's an image shared using standard markdown (works in Preview/GFM). On Friday it didn't work on the deployed website, but now it does. Why?:
+Here's an image shared using standard markdown (works in Preview/GFM). On Friday it didn't work on the deployed website. Today it did briefly and then didn't again. Why?:
 ![Image I'm sharing with you](/objects/coll001.jpeg)
 
 Here's an image shared using standard markdown with a full url (doesn't work in Preview/GFM):
