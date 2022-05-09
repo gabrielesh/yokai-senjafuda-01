@@ -9,6 +9,8 @@ permalink: /collection_highlights.html
 
 Here's a really neat image:
 
+{% include feature/image.html objectid="coll001" %}
+
 ![Image I'm sharing with you](/objects/coll001.jpeg)
 
 ![Image I'm sharing with you no first slash](objects/coll001.jpeg)
