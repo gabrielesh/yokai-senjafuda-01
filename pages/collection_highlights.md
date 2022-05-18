@@ -13,7 +13,7 @@ This page offers a detailed review of the code that creates image links in Markd
 The first image below is shared using a Liquid `include` as documented in the [About the About page](https://collectionbuilder.github.io/collectionbuilder-gh/about.html#about-the-about-page). Notice that the include centers the image differently than the markdown links below it, and includes the title of the image below it. We recommend using includes because they do the following:
 1.	figure out images based on "objectid", automatically finding the correct image src, alt, and link to item page for you (and avoid relative url issues)
 2.	put the image in fairly complicated markup (that you can't do in Markdown, other than pasting html directly in) that ensures the image displays correctly in the page "theme". 
-The code is `{% raw %}{% include feature/image.html objectid="coll001" %}` and it looks like this:
+The code is `{% raw %}{% include feature/image.html objectid="coll001" %}{% endraw %}` and it looks like this:
 
 {% include feature/image.html objectid="coll001" %}
 
@@ -28,7 +28,7 @@ GitHub page: [https://github.com/gabrielesh/yokai-senjafuda-01/blob/main/objects
 ![image shared using standard markdown with a full link](https://raw.githubusercontent.com/gabrielesh/yokai-senjafuda-01/main/objects/coll001.jpeg)
 
 ### Jekyll/Liquid specified Relative URL
-Here's an image shared with a Jekyll/Liquid specified relative url: `{% raw %}![alt text]({{ '/objects/coll001.jpeg' | relative_url }})`
+Here's an image shared with a Jekyll/Liquid specified relative url: `{% raw %}![alt text]({{ '/objects/coll001.jpeg' | relative_url }}){% endraw %}`
 ![alt text]({{ '/objects/coll001.jpeg' | relative_url }})
 
 ### HTML Syntax with Image Size and Relative URL
