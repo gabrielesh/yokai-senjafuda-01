@@ -41,3 +41,10 @@ Here it is using html syntax with a relative url. HTML allows one to specify the
 Here it is using html syntax with size specified and a full url: `<img src="https://raw.githubusercontent.com/gabrielesh/yokai-senjafuda-01/main/objects/coll001.jpeg" alt="first image in collection" width="200"/>`
 
 <img src="https://raw.githubusercontent.com/gabrielesh/yokai-senjafuda-01/main/objects/coll001.jpeg" alt="first image in collection" width="200"/>
+
+## Potential Challenges
+The only tricky part of using relative paths is ensuring they are actually going to be correct when the site builds out. So the relative paths above will work if used on pages/about.html, but wouldn't be correct on "pages/about/part1.html". If you use
+![alt text](/objects/example.jpg)
+it will work if you site is at the root of its domain (e.g. evanwill.github.io/about.html), but not if your site is in a subfolder (which most github pages projects are, e.g. evanwill.github.io/example-collection/about.html).
+To avoid issues, the best way is to use either the Liquid `relative_url` or `include`, both of which will work anywhere on the site.
+ 
