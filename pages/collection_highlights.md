@@ -11,12 +11,11 @@ Here's a really neat image shared using the feature include:
 
 {% include feature/image.html objectid="coll001" %}
 
-
 Here's an image shared using standard markdown:
 ![Image I'm sharing with you](objects/coll001.jpeg)
 
 Here's an image shared using standard markdown with a full url:
-![image shared using standard markdown with a full link]("https://raw.githubusercontent.com/gabrielesh/yokai-senjafuda-01/main/objects/coll001.jpeg")
+![image shared using standard markdown with a full link](https://raw.githubusercontent.com/gabrielesh/yokai-senjafuda-01/main/objects/coll001.jpeg)
 
 Here it is with size specified and a relative link (works in GFM):
 
